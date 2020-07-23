@@ -3,6 +3,7 @@ import logging
 from typing import List
 from aiogram import Dispatcher, types
 from rust_lib.target.release import librust_lib
+import cpp_impliment
 
 
 
@@ -21,7 +22,7 @@ async def result_rust(message: types.Message):
 
 
 async def cpp_result(message: types.Message):
-    await message.answer()
+    await message.answer(cpp_impliment.cpp_implimen.hello_on_cpp())
 
 
 async def all(message: types.Message):

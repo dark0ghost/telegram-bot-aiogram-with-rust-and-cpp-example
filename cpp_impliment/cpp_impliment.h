@@ -1,0 +1,6 @@
+#ifndef CPP_IMPLIMENT_CPP_IMPLIMENT_H
+#define CPP_IMPLIMENT_CPP_IMPLIMENT_H
+
+char const* hello_cmd()
+
+#endif //CPP_IMPLIMENT_CPP_IMPLIMENT_H
