@@ -10,7 +10,7 @@ import asyncio
 import os
 import uvloop
 
-from extend.massage_handler import register
+from extend.message_handler import register
 
 
 async def shutdown(dispatcher: Dispatcher) -> None:
